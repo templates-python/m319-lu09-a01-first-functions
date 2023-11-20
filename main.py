@@ -1,12 +1,21 @@
-def calculate():
+def function1():
     """
-    calculates the total
+    Function without params or return
     :return: None
     """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+    print('Function 1 is called')
+
+
+def four_functions():
+    """
+    Main function
+    :return: None
+    """
+    function1()
+    received_from_2 = function2()
+    function3('passed Argument to print in function3')
+    received_from_4 = function4('passed Argument to print in function4')
 
 
 if __name__ == '__main__':
-    calculate()
+    four_functions()
