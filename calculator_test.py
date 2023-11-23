@@ -23,7 +23,14 @@ def test_divide():
     Test for divide function in calculator.
     """
     assert calculator.divide(6, 3) == 2, "divide should return 2 for divide(6, 3)"
+
+
+def test_divide_by_zero():
+    """
+    Test for divide function in calculator.
+    """
     assert calculator.divide(5, 0) == 'Division by zero', "divide should handle division by zero"
+
 
 def test_power():
     """
@@ -36,4 +43,10 @@ def test_root():
     Test for root function in calculator.
     """
     assert calculator.root(27, 3) == 3, "root should return 3 for root(27, 3)"
+
+
+def test_zero_root():
+    """
+    Test for root function in calculator.
+    """
     assert calculator.root(16, 0) == 'Root by zero', "root should handle root by zero"
