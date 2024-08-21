@@ -1,0 +1,74 @@
+[
+  {
+    "name": "test_add",
+    "function": "test_add",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_subtract",
+    "function": "test_subtract",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_multiply",
+    "function": "test_multiply",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_divide",
+    "function": "test_divide",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_divide_by_zero",
+    "function": "test_divide_by_zero",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_power",
+    "function": "test_power",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_root",
+    "function": "test_root",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_zero_root",
+    "function": "test_zero_root",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_function1",
+    "function": "test_function1",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_function2",
+    "function": "test_function2",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_function3",
+    "function": "test_function3",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_function4",
+    "function": "test_function4",
+    "timeout": 10,
+    "points": 1
+  }
+]
