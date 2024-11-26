@@ -70,5 +70,41 @@
     "function": "test_function4",
     "timeout": 10,
     "points": 1
+  },
+  {
+    "name": "test_docstring_add",
+    "function": "test_docstring_add",
+    "timeout": 10,
+    "points": 1
+  },
+    {
+    "name": "test_docstring_subtract",
+    "function": "test_docstring_subtract",
+    "timeout": 10,
+    "points": 1
+  },
+    {
+    "name": "test_docstring_multiply",
+    "function": "test_docstring_multiply",
+    "timeout": 10,
+    "points": 1
+  },
+    {
+    "name": "test_docstring_divide",
+    "function": "test_docstring_divide",
+    "timeout": 10,
+    "points": 1
+  },
+    {
+    "name": "test_docstring_power",
+    "function": "test_docstring_power",
+    "timeout": 10,
+    "points": 1
+  },
+    {
+    "name": "test_docstring_root",
+    "function": "test_docstring_root",
+    "timeout": 10,
+    "points": 1
   }
 ]
