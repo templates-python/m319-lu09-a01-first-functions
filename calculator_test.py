@@ -1,59 +1,60 @@
 import inspect
-from calculator import add, subtract, multiply, divide, power, root
+import calculator
 
 def test_add():
     """
     Test for add function in calculator.
     """
-    assert add(5, 3) == 8, "add should return 8 for add(5, 3)"
+    assert calculator.add(5, 3) == 8, "add should return 8 for add(5, 3)"
 
 def test_subtract():
     """
     Test for subtract function in calculator.
     """
-    assert subtract(5, 3) == 2, "subtract should return 2 for subtract(5, 3)"
+    assert calculator.subtract(5, 3) == 2, "subtract should return 2 for subtract(5, 3)"
 
 def test_multiply():
     """
     Test for multiply function in calculator.
     """
-    assert multiply(5, 3) == 15, "multiply should return 15 for multiply(5, 3)"
+    assert calculator.multiply(5, 3) == 15, "multiply should return 15 for multiply(5, 3)"
 
 def test_divide():
     """
     Test for divide function in calculator.
     """
-    assert divide(6, 3) == 2, "divide should return 2 for divide(6, 3)"
+    assert calculator.divide(6, 3) == 2, "divide should return 2 for divide(6, 3)"
 
 
 def test_divide_by_zero():
     """
     Test for divide function in calculator.
     """
-    assert divide(5, 0) == 'Division by zero', "divide should handle division by zero"
+    assert calculator.divide(5, 0) == 'Division by zero', "divide should handle division by zero"
 
 
 def test_power():
     """
     Test for power function in calculator.
     """
-    assert power(2, 3) == 8, "power should return 8 for power(2, 3)"
+    assert calculator.power(2, 3) == 8, "power should return 8 for power(2, 3)"
 
 def test_root():
     """
     Test for root function in calculator.
     """
-    assert root(27, 3) == 3, "root should return 3 for root(27, 3)"
+    assert calculator.root(27, 3) == 3, "root should return 3 for root(27, 3)"
 
 
 def test_zero_root():
     """
     Test for root function in calculator.
     """
-    assert root(16, 0) == 'Root by zero', "root should handle root by zero"
+    assert calculator.root(16, 0) == 'Root by zero', "root should handle root by zero"
 
 
 def test_docstring_add():
+    from calculator import add
     docstring = inspect.getdoc(add)
     assert docstring is not None, "Docstring fehlt in der Funktion 'add'"
 
@@ -65,6 +66,7 @@ def test_docstring_add():
 
 
 def test_docstring_subtract():
+    from calculator import subtract
     docstring = inspect.getdoc(subtract)
     assert docstring is not None, "Docstring fehlt in der Funktion 'subtract'"
 
@@ -76,6 +78,7 @@ def test_docstring_subtract():
 
 
 def test_docstring_multiply():
+    from calculator import multiply
     docstring = inspect.getdoc(multiply)
     assert docstring is not None, "Docstring fehlt in der Funktion 'multiply'"
 
@@ -87,6 +90,7 @@ def test_docstring_multiply():
 
 
 def test_docstring_divide():
+    from calculator import divide
     docstring = inspect.getdoc(divide)
     assert docstring is not None, "Docstring fehlt in der Funktion 'divide'"
 
@@ -98,6 +102,7 @@ def test_docstring_divide():
 
 
 def test_docstring_power():
+    from calculator import power
     docstring = inspect.getdoc(power)
     assert docstring is not None, "Docstring fehlt in der Funktion 'power'"
 
@@ -109,6 +114,7 @@ def test_docstring_power():
 
 
 def test_docstring_root():
+    from calculator import root
     docstring = inspect.getdoc(root)
     assert docstring is not None, "Docstring fehlt in der Funktion 'root'"
 
