@@ -65,75 +65,75 @@ def test_docstring_add():
     """Test that the add function has a docstring with :param: and :return:."""
     from calculator import add
     docstring = inspect.getdoc(add)
-    assert docstring is not None, "Docstring fehlt in der Funktion 'add'"
+    assert docstring is not None, 'Docstring fehlt in der Funktion \'add\''
 
     params = inspect.signature(add).parameters
     for param in params:
-        assert f':param {param}:' in docstring, f"Docstring fehlt :param für {param} in 'add'"
+        assert f':param {param}:' in docstring, f'Docstring fehlt :param für {param} in \'add\''
 
-    assert ':return:' in docstring, "Docstring fehlt :return in 'add'"
+    assert ':return:' in docstring, 'Docstring fehlt :return in \'add\''
 
 
 def test_docstring_subtract():
     """Test that the subtract function has a docstring with :param: and :return:."""
     from calculator import subtract
     docstring = inspect.getdoc(subtract)
-    assert docstring is not None, "Docstring fehlt in der Funktion 'subtract'"
+    assert docstring is not None, 'Docstring fehlt in der Funktion \'subtract\''
 
     params = inspect.signature(subtract).parameters
     for param in params:
-        assert f':param {param}:' in docstring, f"Docstring fehlt :param für {param} in 'subtract'"
+        assert f':param {param}:' in docstring, f'Docstring fehlt :param für {param} in \'subtract\''
 
-    assert ':return:' in docstring, "Docstring fehlt :return in 'subtract'"
+    assert ':return:' in docstring, 'Docstring fehlt :return in \'subtract\''
 
 
 def test_docstring_multiply():
     """Test that the multiply function has a docstring with :param: and :return:."""
     from calculator import multiply
     docstring = inspect.getdoc(multiply)
-    assert docstring is not None, "Docstring fehlt in der Funktion 'multiply'"
+    assert docstring is not None, 'Docstring fehlt in der Funktion \'multiply\''
 
     params = inspect.signature(multiply).parameters
     for param in params:
-        assert f':param {param}:' in docstring, f"Docstring fehlt :param für {param} in 'multiply'"
+        assert f':param {param}:' in docstring, f'Docstring fehlt :param für {param} in \'multiply\''
 
-    assert ':return:' in docstring, "Docstring fehlt :return in 'multiply'"
+    assert ':return:' in docstring, 'Docstring fehlt :return in \'multiply\''
 
 
 def test_docstring_divide():
     """Test that the divide function has a docstring with :param: and :return:."""
     from calculator import divide
     docstring = inspect.getdoc(divide)
-    assert docstring is not None, "Docstring fehlt in der Funktion 'divide'"
+    assert docstring is not None, 'Docstring fehlt in der Funktion \'divide\''
 
     params = inspect.signature(divide).parameters
     for param in params:
-        assert f':param {param}:' in docstring, f"Docstring fehlt :param für {param} in 'divide'"
+        assert f':param {param}:' in docstring, f'Docstring fehlt :param für {param} in \'divide\''
 
-    assert ':return:' in docstring, "Docstring fehlt :return in 'divide'"
+    assert ':return:' in docstring, 'Docstring fehlt :return in \'divide\''
 
 
 def test_docstring_power():
     """Test that the power function has a docstring with :param: and :return:."""
     from calculator import power
     docstring = inspect.getdoc(power)
-    assert docstring is not None, "Docstring fehlt in der Funktion 'power'"
+    assert docstring is not None, 'Docstring fehlt in der Funktion \'power\''
 
     params = inspect.signature(power).parameters
     for param in params:
-        assert f':param {param}:' in docstring, f"Docstring fehlt :param für {param} in 'power'"
+        assert f':param {param}:' in docstring, f'Docstring fehlt :param für {param} in \'power\''
 
-    assert ':return:' in docstring, "Docstring fehlt :return in 'power'"
+    assert ':return:' in docstring, 'Docstring fehlt :return in \'power\''
 
 
 def test_docstring_root():
     """Test that the root function has a docstring with :param: and :return:."""
     from calculator import root
     docstring = inspect.getdoc(root)
-    assert docstring is not None, "Docstring fehlt in der Funktion 'root'"
+    assert docstring is not None, 'Docstring fehlt in der Funktion \'root\''
 
     params = inspect.signature(root).parameters
     for param in params:
-        assert f':param {param}:' in docstring, f"Docstring fehlt :param für {param} in 'root'"
+        assert f':param {param}:' in docstring, f'Docstring fehlt :param für {param} in \'root\''
 
-    assert ':return:' in docstring, "Docstring fehlt :return in 'root'"
+    assert ':return:' in docstring, 'Docstring fehlt :return in \'root\''
