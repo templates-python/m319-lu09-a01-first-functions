@@ -1,3 +1,6 @@
+"""Demonstrates functions with different combinations of parameters and return values."""
+
+
 def function1():
     """
     Function without params or return

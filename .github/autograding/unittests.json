@@ -24,8 +24,8 @@
     "points": 1
   },
   {
-    "name": "test_divide_by_zero",
-    "function": "test_divide_by_zero",
+    "name": "test_division_by_zero",
+    "function": "test_division_by_zero",
     "timeout": 10,
     "points": 1
   },
