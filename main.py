@@ -1,3 +1,6 @@
+"""Demonstrates functions with different combinations of parameters and return values."""
+
+
 def function1():
     """
     Function without params or return
@@ -43,7 +46,6 @@ def four_functions():
     function3('passed Argument to print in function3')
     received_from_4 = function4('passed Argument to print in function4')
     print(received_from_4)
-
 
 
 if __name__ == '__main__':

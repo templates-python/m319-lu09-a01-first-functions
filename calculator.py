@@ -1,3 +1,6 @@
+"""A simple calculator with basic arithmetic operations."""
+
+
 def add(x, y):
     """
     Add two numbers.
@@ -6,6 +9,7 @@ def add(x, y):
     :return: Sum of x and y
     """
     return x + y
+
 
 def subtract(x, y):
     """
@@ -16,6 +20,7 @@ def subtract(x, y):
     """
     return x - y
 
+
 def multiply(x, y):
     """
     Multiply x by y.
@@ -24,6 +29,7 @@ def multiply(x, y):
     :return: Product of x and y
     """
     return x * y
+
 
 def divide(x, y):
     """
@@ -34,6 +40,7 @@ def divide(x, y):
     """
     return x / y if y != 0 else 'Division by zero'
 
+
 def power(x, y):
     """
     Calculate x raised to the power of y.
@@ -43,6 +50,7 @@ def power(x, y):
     """
     return x ** y
 
+
 def root(x, y):
     """
     Calculate the y-th root of x.
@@ -51,6 +59,7 @@ def root(x, y):
     :return: y-th root of x
     """
     return x ** (1 / y) if y != 0 else 'Root by zero'
+
 
 def main():
     print(add(5, 5.5))
@@ -65,4 +74,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
