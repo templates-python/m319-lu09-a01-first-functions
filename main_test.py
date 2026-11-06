@@ -15,7 +15,7 @@ def test_function2():
     """
     Test for function2
     """
-    assert main.function2() == 'Function 2 is called', "function2 should return 'Function 2 is called'"
+    assert main.function2() == 'Function 2 is called', 'function2 should return \'Function 2 is called\''
 
 
 def test_function3():
@@ -32,4 +32,4 @@ def test_function4():
     :return: None
     """
     # Testing with different arguments and ensuring that the return value is not None
-    assert main.function4('test') is not None, "function4 should return a non-None value for 'test'"
+    assert main.function4('test') is not None, 'function4 should return a non-None value for \'test\''
